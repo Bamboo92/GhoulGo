@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="home-header">
+        <nav class="header-nav">
+            <ul class="header-ul unselectable">
+                <li><a href="index.html"><img id="website-logo" src="img/ghoulgo_logo.svg" alt="GhoulGo Logo"></a></li>
+                <li><button class="gradient-btn btn" id="nav-btn" onclick="location.href='kontakt.html'">Kontakt</button></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="welcome-section unselectable">
+        <div class="welcome-section-div">
+            <h1 id="company-name">GhoulGo</h1>
+            <h2 id="company-slogan">Dein Transport, unser Antrieb.</h2>
+        </div>
+        <img id="welcome-img" src="img/transporter_parked.svg" alt="parked transporter">
+    </section>
+    <h2>
+        <div class="divider"></div>
+            <span class="header-title">Unsere Dienstleistungen</span>
+        <div class="divider"></div>
+    </h2>
+    <h4>Langjährige Erfahrung im Transportwesen, und ein erstklassiges Dispositionsteam.</h4>
+    <main class="services">
+        <article class="card" id="services-card">
+            <img src="img/transporter_ic.svg" class="services-icon unselectable" alt="Transporter" title="Transporter Icon" loading="lazy"/>
+            <h3>Vielseitige Fahrzeugflotte</h3>
+            <p>Unsere Fahrzeugflotte bietet für jede Transportanforderung die passende Lösung – von kleinen PKWs bis zu großen Transportern.</p>
+        </article>
+        <article class="card" id="services-card">
+            <img src="img/time_ic.svg" class="services-icon unselectable" alt="Time" title="Time Icon"loading="lazy"/>
+            <h3>Blitzschnelle Lieferungen</h3>
+            <p>Profitieren Sie von unserem Same-Day-Delivery-Service und unserer 24/7-Verfügbarkeit für dringende und zeitkritische Transporte.</p>
+        </article>
+        <article class="card" id="services-card">
+            <img src="img/shield_ic.svg" class="services-icon unselectable" alt="Shield" title="Shield Icon" loading="lazy"/>
+            <h3>Sichere Gefahrguttransporte</h3>
+            <p>Wir garantieren den sicheren Transport von Gefahrgut mit speziell ausgerüsteten Fahrzeugen und geschultem Personal.</p>
+        </article>
+        <article class="card" id="services-card">
+            <img src="img/chat_ic.svg" class="services-icon unselectable" alt="Shield" title="Shield Icon" loading="lazy"/>
+            <h3>Einfache Buchung</h3>
+            <p>Buchen Sie unsere Dienstleistungen ganz einfach telefonisch, über unser Kontaktformular auf der Website oder per E-Mail – wir sind stets für Sie da.</p>
+        </article>
+        <article class="card" id="services-card">
+            <img src="img/globe_ic.svg" class="services-icon unselectable" alt="Globe" title="Globe Icon" loading="lazy"/>
+            <h3>International</h3>
+            <p>Wir bieten weltweite Transportlösungen an, die Ihre Fracht sicher an jedes Ziel bringen, unabhängig von Entfernung oder Ort.</p>
+        </article>
+    </main>
+
+    <section id="special">
+        <img src="img/special_transporter_driving.jpg" class="special-img unselectable" alt="Driving Transporter" title="Transporter driving on higway" loading="lazy"/>
+        <article class="card" id="special-card">
+            <h3 class="special-header">Über Uns</h3>
+            <p>Erfahren Sie mehr über uns und unser Unternehem.</p>
+            <button onclick="window.location.href='aboutus.html'" class="gradient-btn btn unselectable" id="special-btn"><span class="detail-title">Mehr dazu</span><img src="img/open_arrow_right.svg" class="detail-value" alt="Arrow" title="Arrow" loading="lazy"/></button>
+        </article>
+    </section>
+
+    <h2>
+        <div class="divider"></div>
+            <span class="header-title">Partner</span>
+        <div class="divider"></div>
+    </h2>
+
+    <nav class="partner-nav">
+        <a class="partner-link" href="https://elb-speed.de/index.html" target="_blank" rel="noopener noreferrer">
+            <img src="img/elbspeed_logo.svg" alt="elbspeed logo">
+        </a>        
+        <a class="partner-link" href="https://github.com/Bamboo92" target="_blank" rel="noopener noreferrer">
+            <img src="img/BambooLogoText.svg" alt="elbspeed logo">
+        </a>  
+    </nav>
+
+    <footer class="app-footer">
+        <div class="footer-div">
+            <ul>
+                <li><h5 id="newsletter-h5">Bleiben Sie informiert und inspiriert</h5></li>
+                <li>
+                    <form class="unselectable" id="newsletter-form" action="#" method="POST">
+                        <input id="newsletter-input" type="email" name="newsletterEmail" placeholder="E-Mail-Adresse" required>
+                        <button class="flat-btn btn" id="newsletter-btn" type="submit" title="Subscribe Button" value=""></button>
+                    </form>
+                </li>
+                <li id="socialmedia-image-li">
+                    <ul id="socialmedia" class="unselectable">
+                        <li>
+                            <a href="https://www.tiktok.com/@elbspeed">
+                                <img src="img/tiktok_logo.svg" class="socialmedia-img" alt="TikTok" title="TikTok Logo" loading="lazy"/>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/elb.speed">
+                                <img src="img/instagram_logo.svg" class="socialmedia-img" alt="Instagram" title="Instagram Logo" loading="lazy"/>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <nav class="footer-nav">
+                <ul>
+                    <li><h5>Vermietung</h5></li>
+                    <li><a class="footer-link" href="#rent-car-header">Auto Buchen</a></li>
+                    <li><a class="footer-link" href="none.html">Feedback</a></li>
+                </ul>
+                <ul>
+                    <li><h5>Ressourcen</h5></li>
+                    <li><a class="footer-link" href="guides.html">Guides</a></li>
+                    <li><a class="footer-link" href="FAQ.html">FAQ</a></li>
+                </ul>
+                <ul>
+                    <li><h5>Über uns</h5></li>
+                    <li><a class="footer-link" href="aboutus.html">Unternehmen</a></li>
+                    <li><a class="footer-link" href="kontakt.html">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+    <footer>
+        <nav class="legal-nav">
+            <span>GhoulemGo © 2024</span>
+            <a class="legal-link footer-link" href="impressum.html">Impressum</a>
+            <a class="legal-link footer-link" href="datenschutzerklärung.html">Datenschutzerklärung</a>
+            <a class="legal-link footer-link" href="guides.html">Allgemeine Mietbedingungen</a>
+        </nav>
+    </footer>
+</body>
+</html>
